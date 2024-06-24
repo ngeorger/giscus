@@ -27,7 +27,7 @@ the web app. You can use this guide as a reference.
 ### Register new GitHub App
 
 - \
-  ![image](https://user-images.githubusercontent.com/6379424/120402077-837f3100-c36b-11eb-93d6-12fb0710ce46.png)
+  ![image](https://user-images.githubusercontent.com/6379424/120402077-837f3100-c36b-11eb-93d6-12fb0710ce46.png){: language="markdown"}
 
   - Feel free to name it whatever you want (e.g. `myblog-comments`). I would
     appreciate it if you indicate that it is a self-hosted version of
@@ -171,7 +171,8 @@ limit.
   giscus uses `installation_access_tokens` as the default.
 - Use the following schema for the table: \
   ![image](https://user-images.githubusercontent.com/6379424/136653256-eca294a4-45cd-4c58-afd1-957493cff76d.png)
-  ```
+
+  ```log
   installation_id: int8, no default value, primary key, uncheck Is Identity
   token: varchar, no default value
   expires_at: timestamptz, no default value
@@ -181,6 +182,7 @@ limit.
   None of the columns are nullable (uncheck Is Nullable via the gear icon).
   Only installation_id is the primary key.
   ```
+
 - Take note of your Supabase project's URL (`https://xxxxx.supabase.co`) and
   your API key.
 - Make sure that you either:
@@ -202,19 +204,19 @@ functions.
 
 - Install the dependencies.
 
-  ```
+  ```bash
   yarn install
   ```
 
 - Build the application.
 
-  ```
+  ```bash
   yarn build
   ```
 
 - Start the server.
 
-  ```
+  ```bash
   yarn start
   ```
 
@@ -236,10 +238,5 @@ encounter any problems, [create a new issue][new-issue].
 [supabase]: https://supabase.io
 [vercel]: https://vercel.com
 [env-example]: .env.example
-[api-routes]: pages/api
-[services]: services
-[cors]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-[next-export]: https://nextjs.org/docs/advanced-features/static-html-export
-[configuration]: https://github.com/giscus/giscus/blob/main/components/Configuration.tsx#L320
 [discussion]: https://github.com/giscus/giscus/discussions/categories/q-a
 [new-issue]: https://github.com/giscus/giscus/issues/new
