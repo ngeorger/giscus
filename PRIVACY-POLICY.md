@@ -2,7 +2,7 @@
 
 The [SREDevOps Organization][organization] (our organization) is an independent
 organization and is not part of any company. Our organization operates the
-https://sredevopsorg.vercel.app website (our website). This privacy policy will explain how
+<https://sredevopsorg.vercel.app> website (our website). This privacy policy will explain how
 our organization uses your personal data when you use our website.
 
 Topics:
@@ -87,14 +87,14 @@ will be stored in your browser's local storage. On every subsequent load of the
 website, the token will be decrypted by our server to let you create
 authenticated requests to the GitHub API.
 
-For further information, visit https://allaboutcookies.org.
+For further information, visit <https://allaboutcookies.org>.
 
 ## How do we use cookies?
 
 We do not use cookies, but the server-encrypted token stored in your browser's
 local storage is used to:
 
-*   Keep you signed in
+- Keep you signed in
 
 ## What types of cookies do we use?
 
